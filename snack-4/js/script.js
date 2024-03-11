@@ -12,6 +12,6 @@ for(let i = 1; i <= 10; i++) {
      console.log(sum);
 }
 
-   
+alert(sum);
     // divido la somma totale per il numero totale dei numeri 
 
