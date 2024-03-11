@@ -7,7 +7,9 @@ const numbersList = [1,2,3,4,5,6,7,8,9,10];
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
 let biggestNumber = Math.max(...numbersList);
 //console.log(biggestNumber);
-// stampo il numero piu' grande
-let message = "il numero piu' grande è " + biggestNumber;
 
+
+//OUTPUT 
+// stampo in console il numero piu' grande
+let message = "il numero piu' grande è " + biggestNumber;
 console.log(message);
