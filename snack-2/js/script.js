@@ -11,8 +11,13 @@ for(let i = 0; i < 5; i++) {
     
     //lo sommo al numero precedente
     sum = sum + userNumber;
-    console.log(sum);
+    //console.log(sum);
+
+
 }
 
-
 //STAMPO LA SOMMA DI TUTTI I NUMERI
+const userMessage = 'La somma dei numeri è ' + sum;
+//alert(userMessage);
+
+document.querySelector('#message').innerHTML = userMessage;
