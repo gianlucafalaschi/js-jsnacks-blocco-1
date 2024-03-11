@@ -10,4 +10,4 @@ let biggestNumber = Math.max(...numbersList);
 // stampo il numero piu' grande
 let message = "il numero piu' grande è " + biggestNumber;
 
-alert(message);
+console.log(message);
