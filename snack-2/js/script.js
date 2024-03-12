@@ -25,13 +25,13 @@ document.querySelector('#message').innerHTML = userMessage; */
 
 ////////////////////////////////////////////////////////////////
 
-// CORREZIONE (DA RIVEDERE NON FUNZONA)
+// CORREZIONE
 let userSum = 0;
 // Per 5 volte:
 for(let i = 0; i < 5; i++) {
     // chiedere un numero all'utente
     const userNumber = parseInt(prompt('Dimmi un numero'));
-    console.log(userNumber);
+    //console.log(userNumber);
     // sommarlo alla somma che avevo in precedenza
     userSum += userNumber;
     console.log(userSum);
