@@ -3,7 +3,7 @@
 //  se è dispari inseriscilo nell’array.
 
 // crea array vuoto
-const numberList = [];
+/* const numberList = [];
 // chiedi per 6 volte all'utente di inserire un numero
 for(let i = 0; i < 6; i++) {
     let userNumber = parseInt(prompt('Dimmi un numero'));
@@ -18,4 +18,19 @@ for(let i = 0; i < 6; i++) {
 }
 
 
-console.log(numberList);
+console.log(numberList); */
+
+
+/////////////////////////////////////////////////////////////
+
+//CORREZIONE
+const numbers = [];
+for(let i = 0; i < 6; i++) {
+    const userNumber = parseInt(prompt('Dami un numero'));
+    if(userNumber % 2 !== 0) {
+        numbers.push(userNumber);
+
+    }
+}
+
+console.log(numbers);
