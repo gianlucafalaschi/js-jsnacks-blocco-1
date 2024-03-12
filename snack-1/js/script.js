@@ -4,7 +4,7 @@
 
 
 //dichiaro un array vuoto
-const numberList = [];
+/* const numberList = [];
 
 // chiedo all'utente 5 volte un numero
 for(let i = 0; i < 5; i++) {
@@ -21,3 +21,26 @@ for(let i = 0; i < 5; i++) {
 }
 
 console.log(numberList);
+
+ */
+
+/////////////////////////////////////////////////////////////
+
+// CORREZIONE
+const numbersArray = [];
+// Per 5 volte :
+for(let i = 0; i < 5; i++) {
+    //chiedere un numero all'utente
+    const userNumber = parseInt(prompt('Dimmi un numero'));
+    
+    //controllo che non sia gia' presente e se non e' presente lo pusho
+   /*  if(numbersArray.includes(userNumber) === false) {
+        numbersArray.push(userNumber);
+   } */
+   //posso accorciare cosi'
+    if(!numbersArray.includes(userNumber)) {
+        numbersArray.push(userNumber);
+   }
+}
+console.log(numbersArray); 
+  
